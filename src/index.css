@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Footer */
+@keyframes poundAnimation {
+    0%, 100% {
+      transform: scale(0.9);
+    }
+    50% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-pound {
+    animation: poundAnimation 0.7s infinite;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #1a202c; /* Replace with your desired color (gray-900) */
+    border-radius: 9999px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #2d3748;
+  }
+  
+  /* For Firefox */
+  * {
+    scrollbar-color: #1a202c #2d3748; /* Replace with your desired colors */
+    scrollbar-width: thin;
+  }
