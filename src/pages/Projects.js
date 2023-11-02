@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Mail Sender Bot",
     description: "Effortlessly send files or messages to any email address. Share documents, images, or content seamlessly.",
-    image: "https://media.publit.io/file/02146/mail-bot-preview.png",
+    image: "https://res.cloudinary.com/dzjujoqyi/image/upload/v1698936046/mail-bot-preview_qz3or4.png",
     demoLink: "https://mail.dsourav.com",
     codeLink: "https://github.com/dsouravcom/mail-sender-bot",
   },
