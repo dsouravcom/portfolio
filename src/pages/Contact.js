@@ -60,7 +60,7 @@ function Contact() {
                 <h2 className="title-font font-bold font-serif tracking-widest">
                   EMAIL
                 </h2>
-                <a href="#" className="text-indigo-500 leading-relaxed">
+                <a href="mailto:hello@dsourav.com" className="text-indigo-500 leading-relaxed">
                   hello@dsourav.com
                 </a>
                 <h2 className="title-font font-bold font-serif tracking-widest mt-4">
